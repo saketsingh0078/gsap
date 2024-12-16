@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#page1 {
+  width: 100%;
+  height: 100vh;
+  background-color: aquamarine;
+}
+#page2 {
+  width: 100%;
+  height: 100vh;
+  background-color: #636f4e;
+  padding: 5vw;
+}
+
+#page2 h1 {
+  color: #434b34;
+  font-size: 3.5vw;
+  text-align: center;
+  font-weight: 400;
+}
+
+#page3 {
+  width: 100%;
+  height: 100vh;
+  background-color: aquamarine;
+}

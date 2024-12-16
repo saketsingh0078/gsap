@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#page1 {
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine;
+}
+#page2 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(30, 86, 67);
+}
+
+#page2 img {
+  height: 100%;
+  position: relative;
+  width: 20%;
+  object-fit: cover;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#page3 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(46, 62, 57);
+}
+
+#page4 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(10, 228, 228);
+}
+
+#page4 h1 {
+  font-size: 30vw;
+  font-weight: 600;
+  margin-left: 150px;
+}
