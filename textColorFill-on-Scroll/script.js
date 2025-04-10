@@ -1,8 +1,6 @@
 function locoScroll() {
   gsap.registerPlugin(ScrollTrigger);
 
-  // Using Locomotive Scroll from Locomotive https://github.com/locomotivemtl/locomotive-scroll
-
   const locoScroll = new LocomotiveScroll({
     el: document.querySelector("#main"),
     smooth: true,
@@ -57,12 +55,14 @@ function gsapAnimation() {
     color: "#E3E3C4",
     stagger: 0.1,
     scrollTrigger: {
-      trigger: "#page2 h1",
+      trigger: "#page2",
       scroller: "#main",
       markers: true,
       start: "top 50%",
       end: "top -10%",
       scrub: 2,
+      pin: true,
+      pinspacing: false,
     },
   });
 }
